@@ -45,7 +45,8 @@ Starting thanos-query1       ... done
 Starting thanos-query0       ... done
 ```
 
-* Thanos UI can be reached on port 10904.
+* Thanos UI (and read) can be reached on port 10904.
+* Thanos Receive is on port 10908
 * Grafana UI can be reached on port 3000.
 
 ## For OpenNMS, the following configuration should be applied to the Cortex time series plugin (org.opennms.plugins.tss.cortex.cfg):
